@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo layout</title>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+
+        <header>
+            <img src="" alt="">
+            <p>The text</p>
+            <h1>CSS Layout</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                quos enim reiciendis assumenda dignissimos? Assumenda omnis ipsa
+                explicabo quis iusto quae culpa aperiam animi maiores
+                repudiandae placeat voluptatibus, quam in!</p>
+        </header>
+        <nav>
+            <a id="page-title" href="">Travello</a>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Destinations</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </nav>
+        <!-- Cách 1: clear để float không ảnh hưởng đến các phần sau -->
+        <!-- <div style="clear: both;"></div> -->
+        <main>
+            <section id="destinations">
+                <h2>Destinations</h2>
+                <div class="flex-container">
+                    <article>
+                        <img src="images/destination_1.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article>
+                    <article>
+                        <img src="images/destination_2.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article> <article>
+                        <img src="images/destination_3.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article> <article>
+                        <img src="images/destination_4.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article> <article>
+                        <img src="images/destination_5.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article> <article>
+                        <img src="images/destination_6.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article>
+                </div>
+            </section>
+            <section id="destinations-grid">
+                <h2>Destinations Grid</h2>
+                <div class="grid-container">
+                    <article>
+                        <img src="images/destination_1.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article>
+                    <article>
+                        <img src="images/destination_2.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article> <article>
+                        <img src="images/destination_3.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article> <article>
+                        <img src="images/destination_4.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article> <article>
+                        <img src="images/destination_5.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article> <article>
+                        <img src="images/destination_6.jpg" alt="">
+                        <h3>Destination 1</h3>
+                        <p class="price">$123</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Saepe quis repellat rem? Maiores sint soluta
+                            asperiores
+                            perspiciatis consectetur! Consectetur voluptatem
+                            error a
+                            sed at expedita qui totam dolores sapiente ab.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <a id="go-to-top" href="#page-title"><i class="fa
+                    fa-angle-double-up" aria-hidden="true"></i></a>
+        </footer>
+    </body>
+</html>
